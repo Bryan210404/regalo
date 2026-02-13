@@ -14,7 +14,6 @@ body {
     align-items: center;
     padding: 20px;
     position: relative;
-    overflow: hidden;
 }
 
 /* Fondo animado con gradientes */
@@ -368,3 +367,4 @@ p:nth-of-type(7) { animation-delay: 6.8s; }
         font-size: 16px;
     }
 }
+
