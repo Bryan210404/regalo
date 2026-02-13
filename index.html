@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para ti 💌</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Canvas de partículas -->
+    <canvas id="particles"></canvas>
+
+    <div class="container">
+        <!-- PANTALLA 1: TERMINAL -->
+        <div id="screen1" class="screen active">
+            <div class="terminal">
+                <div class="terminal-header">
+                    <span class="terminal-dot red"></span>
+                    <span class="terminal-dot yellow"></span>
+                    <span class="terminal-dot green"></span>
+                </div>
+                <div class="terminal-body">
+                    <div class="terminal-text">
+                        <span class="prompt">$</span>
+                        <span id="text"></span>
+                        <span class="cursor">_</span>
+                    </div>
+                </div>
+            </div>
+            <button id="btn" class="btn-continue">Continuar</button>
+        </div>
+
+        <!-- PANTALLA 2: SOBRE Y CARTA -->
+        <div id="screen2" class="screen">
+            <div class="envelope-scene">
+                <div class="envelope"></div>
+                <div class="flap"></div>
+
+                <div class="letter-card">
+                    <h1>Para alguien especial</h1>
+                    <p>No estoy siguiendo ninguna tradición porque toque.</p>
+                    <p>Escribo esto porque quiero hacerlo.</p>
+                    <p>Este 14 de febrero probablemente no estaremos juntos, y está bien. Las fechas no cambian lo que
+                        siento.</p>
+                    <p>Solo quería que supieras que pienso en ti más seguido de lo que quizás te imaginas. Que me
+                        importas
+                        de verdad. Que cuando hablo contigo, todo se siente más simple.</p>
+                    <p>No espero nada de vuelta. Ni respuestas inmediatas, ni que esto cambie algo entre nosotros.</p>
+                    <p>Solo quería regalarte algo hecho con calma, algo que quedara. Un momento pequeño y honesto.</p>
+                    <p>Gracias por existir en mi vida de la forma en que lo haces.</p>
+                    <p class="signature">— Con cariño real, sin prisas</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
